@@ -1,0 +1,75 @@
+<!DOCTYPE HTML>
+<html lang ="en">
+<head>
+    <meta charset ="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <link rel ="stylesheet" href="grp 4.css">
+
+    <title>SOSOSO BUS TICKET'S</title>
+</head>
+<body>
+<div class = "contaniner">
+<form  id="SOSOSO" action="" method="post" onsubmit="return validateForm()">
+<h1>SOSOSO BOOKING TICKET</h1>
+
+  <input  type="text" placeholder="Full-Name" id="Full-Name">
+  <span id="fullNameError" class="error"></span><br>
+
+  <input class ="" type="email" placeholder="Email" id="Email">
+  <span id="emailError" class="error"></span><br>
+
+  <input class ="" type="tel" placeholder="Phone-Number"  id="Phone-Number">
+  <span id="phoneError" class="error"></span><br>
+
+  <input class ="" type="tel" placeholder="Relative-Phone-Number"  id="Relative-Phone-Number">
+  <span id="relativePhoneError" class="error"></span><br>
+
+  <div class="destination">
+  <label for ="From" >From</label>
+  <select id="From" name="From">
+    <option value = "Blantyre">Blantyre</option>
+    <option value = "Lilongwe">Lilongwe</option>
+    <option value = "Mzuzu">Mzuzu</option>
+    <option value = "Karonga">Karonga</option>
+  </select>
+  </div>
+  <div class="destination">
+  <label for ="To" >To</label>
+  <select id="To" name="To">
+    <option value = "Lilongwe">Lilongwe</option>
+    <option value = "Blantyre">Blantyre</option>
+    <option value = "Mzuzu">Mzuzu</option>
+    <option value = "Karonga">Karonga</option>
+  </select>
+  <input type="text" placeholder="MWK 000,000" id="price">
+  </div>
+<div class="trip">
+  <input type="radio" name="trip" value="One way trip">
+  <label for="One way trip">One way trip</label>
+  <input type="radio" name="trip" value="Two way trip" href="soso.html">
+  <label for="Two way trip">Two way trip</label>
+</div>
+<div class="date">
+  <label for="Date">Departure Date</label>
+  <input type="date" name="date" id="Date">
+  <input type="time" name="time" id="time">
+  
+</div>
+  <div class="Passengers">
+  <label for="Passengers">Number Of Passengers</label>
+  <input type="number" placeholder="Number of Passengers " id="Passengers">
+  <span id="PassengersError" class="error"></span><br>
+
+</div>
+  <input class ="btn" type="Submit" value="Book Ticket">
+
+    </form>
+
+    </div>
+    
+    <script src="main.JS">
+   
+    </script>
+</body>
+
+</html>

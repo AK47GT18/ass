@@ -1,0 +1,126 @@
+
+body{
+	justify-content: center;
+	align-items: center;
+	display:flex;
+}
+.contaniner{
+	margin-top: 20px;
+	border-radius: 12px;
+	border-style:groove;
+	border-color: rgba(255, 255, 255, 0.6);
+
+	text-align: center;
+	height:550px;
+	width:600px;
+	
+	
+}
+.contaniner input{
+	padding-left: 5px;
+	margin-left: 30px;
+	width: 500px;
+	height: 20px;
+	justify-content: center;
+    align-items: center;
+	display: flex;
+	flex-direction: column;
+	
+}
+.contaniner input:focus{
+	outline: none;
+}
+h1{
+	justify-content: center;
+	
+}
+.trip{
+	display: flex;
+	justify-content: center;
+	margin-top: 10px;
+	margin-bottom: 10px;
+
+}
+.trip input{
+	height: 10px;
+	width: 10px;
+}
+.destination{
+  display:flex;
+  flex-direction: column;	
+}
+.destination select{
+	width: 510px;
+	height: 25px;
+	margin-left: 30px;
+	margin-bottom: 10px;
+}
+.destination select:focus{
+	outline: none;
+}
+.destination label{
+	margin-bottom: 5px;
+	
+}
+.date{
+	display:flex;
+	align-items: center;
+	margin-left: 30px;
+}
+.date input{
+   width: 200px;
+   height: 20px;
+   margin-left: 5px;
+   margin-bottom: 10px;
+}
+.date input[type ="time"]{
+	width:176px;
+}
+.date label{
+	margin-bottom: 5px;
+	margin-right: 7px;
+}
+.Passengers{
+	display:flex;
+	align-items: center;
+	margin-left: 28px;
+	margin-bottom: 10px;
+}
+.Passengers input{
+    width: 322px;
+	height: 20px;
+}
+.Passengers label{
+	margin-bottom: 2px;
+}
+.btn{
+	cursor: pointer;
+	background-color: aquamarine;
+	border-radius: 9px;
+	border-style:none ;
+	
+}
+.error{
+	color: red;
+	margin-left: -317px;
+
+
+	
+}
+#phoneError{
+	margin-left: -372px;
+	
+}
+#emailError{
+	margin-left: -428px;
+}
+#fullNameError{
+	margin-left: -402px;
+}
+#relativePhoneError{
+	margin-left: -315px;
+}
+#PassengersError{
+	margin-top: 50px;
+	margin-left: -510px;
+}
